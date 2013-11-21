@@ -25,7 +25,20 @@
 <h1>MaxwellFDFD</h1>
 </div>
 <p><b>MaxwellFDFD</b> is a MATLAB-based package that solves the frequency-domain Maxwell's equations</p>
-<p style="text-align:center">\(  \nabla \times \mathbf{E}(\mathbf{r}) = -i \, \omega \, \mu(\mathbf{r},\mathbf{\omega}) \, \mathbf{H}(\mathbf{r}) - \mathbf{M}(\mathbf{r}),\\ \nabla \times \mathbf{H}(\mathbf{r}) = i \, \omega \, \varepsilon(\mathbf{r},\mathbf{\omega}) \, \mathbf{E}(\mathbf{r}) + \mathbf{J}(\mathbf{r}).  \)</p><p>The equations are solved by the finite-difference frequency-domain (FDFD) method, and hence the name MaxwellFDFD.</p>
+<p style="text-align:center">\(  \nabla \times \mathbf{E}(\mathbf{r}) = -i \, \omega \, \mu(\mathbf{r},\mathbf{\omega}) \, \mathbf{H}(\mathbf{r}) - \mathbf{M}(\mathbf{r}),\\ \nabla \times \mathbf{H}(\mathbf{r}) = i \, \omega \, \varepsilon(\mathbf{r},\mathbf{\omega}) \, \mathbf{E}(\mathbf{r}) + \mathbf{J}(\mathbf{r}),  \)</p><p>where </p>
+<ul>
+<li><p>\(\mathbf{r}\) is the position variable.</p>
+</li>
+<li><p>\(\mathbf{E}(\mathbf{r})\) and \(\mathbf{H}(\mathbf{r})\) are the solution electric and magnetic fields of the EM waves.</p>
+</li>
+<li><p>\(\mathbf{J}(\mathbf{r})\) and \(\mathbf{M}(\mathbf{r})\) are the electric and magnetic current source densities emanating the EM waves.</p>
+</li>
+<li><p>\(\omega\) is the oscillation frequency of the current sources.</p>
+</li>
+<li><p>\(\varepsilon(\mathbf{r},\omega)\) and \(\mu(\mathbf{r},\omega)\) are the electric permittivity and magnetic permeability of the object at \(\mathbf{r}\) for \(\omega\).</p>
+</li>
+</ul>
+<p>MaxwellFDFD solves the frequency-domain Maxwell's equations by the finite-difference frequency-domain (FDFD) method, and hence the name MaxwellFDFD.</p>
 <h2>Example Gallery</h2>
 <p>More examples: <a href="maxwellfdfd/topic/gallery2d.html" target=&ldquo;blank&rdquo;>2D</a>, <a href="maxwellfdfd/topic/gallery3d.html" target=&ldquo;blank&rdquo;>3D</a></p>
 <table class="imgtable"><tr><td>
