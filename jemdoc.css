@@ -1,8 +1,8 @@
 /* Default css file for jemdoc. */
 
 @font-face {
-	font-family: optima_font;
-	src: local(optima_font), url('fonts/Optima.ttc') format('truetype');
+	font-family: 'OptimaWeb';
+	src: local('OptimaWeb'), url('fonts/Optima.ttc') format('truetype');
 }
 
 table#tlayout {
@@ -13,7 +13,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: optima_font, sans-serif;
+	font-family: 'OptimaWeb', sans-serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
