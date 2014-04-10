@@ -1,5 +1,10 @@
 /* Default css file for jemdoc. */
 
+@font-face {
+	font-family: Optima;
+	src: local(Optima), url('fonts/Optima.ttc') format('truetype');
+}
+
 table#tlayout {
     border: none;
     border-collapse: separate;
