@@ -73,7 +73,7 @@
 <h2>Example Gallery</h2>
 <p><a name="eg1"></a></p>
 <ul>
-<li><p>Plane wave incident on a silver slab with a slit</p>
+<li><p>Plane wave incident on a slit in a silver slab</p>
 </li>
 </ul>
 <table class="imgtable"><tr><td>
@@ -87,15 +87,18 @@
 <img src="doc/img/bowtie2d_field.png" alt="TF/SF Simulation of a Plane Wave Incident on a Gold Bow-tie Antenna" width="450px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <ul>
-<li><p>Double bend in a photonic crystal waveguide</p>
+<li><p>Point source in a photonic crystal waveguide double bend</p>
 </li>
 </ul>
 <table class="imgtable"><tr><td>
 <img src="doc/img/pcdoublebend2d_field.png" alt="Double Bend in a Photonic Crystal Waveguide" width="650px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>For more examples, click <a href="doc/topic/gallery2d.html" target=&ldquo;blank&rdquo;>here</a>. </p>
+<ul>
+<li><p>More examples are <a href="doc/topic/gallery2d.html" target=&ldquo;blank&rdquo;>here</a>. </p>
+</li>
+</ul>
 <h2>How to use MaxwellFDFD</h2>
-<p>Using MaxwellFDFD is very simple.  There is an all-in-one function, <tt>maxwell_run()</tt>, and you just need to fill in its parameters.  For example, below is the code for the <a href="maxwellfdfd.html#eg1">first example</a> shown above. </p>
+<p>Using MaxwellFDFD is very simple.  There is an all-in-one function, <tt>maxwell_run()</tt>, and you just need to fill in its input parameters.  For example, below is the code for the <a href="maxwellfdfd.html#eg1">first example</a> shown above. </p>
 <div class="codeblock">
 <div class="blockcontent"><pre>
 [E, H] = maxwell_run(...
@@ -106,17 +109,18 @@
 		Box([80 1100; 0 1000; 0 10]), ...
 	'SRCJ', PlaneSrc(Axis.y, -500, Axis.x), true);
 </pre></div></div>
-<p>The meaning of the <i>parameter groups</i> used in the code is as follows:</p>
+<p>The meaning of the <i>input parameter groups</i> used in the code is as follows:</p>
 <ul>
 <li><p><tt>'OSC'</tt> (oscilation): the free-space wavelength</p>
 </li>
-<li><p><tt>'DOM'</tt> (domain): the size of the domain</p>
+<li><p><tt>'DOM'</tt> (domain): the size of the simulation domain</p>
 </li>
-<li><p><tt>'OBJ'</tt> (object): the materials and shapes of the objects</p>
+<li><p><tt>'OBJ'</tt> (object): the materials and shapes of the objects in the simulation domain</p>
 </li>
-<li><p><tt>'SRCJ'</tt> or <tt>'SRCM'</tt> (source): the electric or magnetic current sources</p>
+<li><p><tt>'SRCJ'</tt> (source): the electric current source in the simulation domain</p>
 </li>
 </ul>
+<p>The output parameters <tt>E</tt> and <tt>H</tt> are the solution <i>E</i>- and <i>H</i>-fields of the simulation.  </p>
 <p>For the details of the usage, see <a href="doc/topic/basic.html" target=&ldquo;blank&rdquo;>Basic Usage</a> in the documentation. (The entire documentation is included in the downloaded MaxwellFDFD package.)</p>
 <h2>System Requirements</h2>
 <ul>
@@ -152,7 +156,7 @@
 </pre></div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2014-04-11 13:34:36 PDT, by <a href="https://github.com/wsshin/jemdoc" target="blank">jemdoc+MathJax</a>.
+Page generated 2014-04-11 17:06:24 PDT, by <a href="https://github.com/wsshin/jemdoc" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
