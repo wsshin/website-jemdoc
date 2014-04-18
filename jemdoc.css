@@ -7,22 +7,22 @@ table#tlayout {
 }
 
 @font-face {
-	font-family: "Optima";
-	src: url("fonts/Optima-Regular.ttf");
+	font-family: Optima;
+	src: url("fonts/Optima-Regular.ttf") format('truetype');
 }
 @font-face {
-	font-family: "Optima";
-	src: url("fonts/Optima-Bold.ttf");
+	font-family: Optima;
+	src: url('fonts/Optima-Bold.ttf') format('truetype');
 	font-weight: bold;
 }
 @font-face {
-	font-family: "Optima";
-	src: url("fonts/Optima-Italic.ttf");
+	font-family: Optima;
+	src: url('fonts/Optima-Italic.ttf') format('truetype');
 	font-style: italic;
 }
 @font-face {
-	font-family: "Optima";
-	src: url("fonts/Optima-BoldItalic.ttf");
+	font-family: Optima;
+	src: url('fonts/Optima-BoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
