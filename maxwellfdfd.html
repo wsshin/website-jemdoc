@@ -30,8 +30,8 @@
 <p><b>MaxwellFDFD</b> is a MATLAB-based package that solves the frequency-domain Maxwell's equations</p>
 <p style="text-align:center">
 \[
-\nabla \times \mathbf{E}(\mathbf{r}) = -i \, \omega \, \mu(\mathbf{r},\mathbf{\omega}) \, \mathbf{H}(\mathbf{r}) - \mathbf{M}(\mathbf{r}),\\
-\nabla \times \mathbf{H}(\mathbf{r}) = i \, \omega \, \varepsilon(\mathbf{r},\mathbf{\omega}) \, \mathbf{E}(\mathbf{r}) + \mathbf{J}(\mathbf{r}),
+\nabla \times \mathbf{E}(\mathbf{r}) = -i \, \omega \, \mu(\mathbf{r},\mathbf{\omega}) \, \mathbf{H}(\mathbf{r}) - \mathbf{J}_m(\mathbf{r}),\\
+\nabla \times \mathbf{H}(\mathbf{r}) = i \, \omega \, \varepsilon(\mathbf{r},\mathbf{\omega}) \, \mathbf{E}(\mathbf{r}) + \mathbf{J}_e(\mathbf{r}),
 \]
 </p><p>where </p>
 <ul>
@@ -39,7 +39,7 @@
 </li>
 <li><p>\(\mathbf{E}(\mathbf{r})\) and \(\mathbf{H}(\mathbf{r})\) are the solution electric and magnetic fields of the EM waves.</p>
 </li>
-<li><p>\(\mathbf{J}(\mathbf{r})\) and \(\mathbf{M}(\mathbf{r})\) are the electric and magnetic current source densities emanating the EM waves.</p>
+<li><p>\(\mathbf{J}_e(\mathbf{r})\) and \(\mathbf{J}_m(\mathbf{r})\) are the electric and magnetic current source densities emanating the EM waves.</p>
 </li>
 <li><p>\(\omega\) is the oscillation frequency of the current sources.</p>
 </li>
@@ -53,17 +53,13 @@
 </li>
 <li><p>Dynamic nonuniform grid generation aligned with object boundaries</p>
 </li>
-<li><p>Waveguide mode solver</p>
+<li><p>Waveguide mode solver and waveguide-mode-generating current source</p>
 </li>
-<li><p>Visualization of objects and sources in 2D and 3D</p>
+<li><p>Visualization of objects, sources, and solution fields in 2D and 3D</p>
 </li>
-<li><p>Visualization of solution fields in 2D and 3D</p>
+<li><p>Periodic array of objects</p>
 </li>
-<li><p>Various object shapes: box, sphere, cylinder, etc., and their periodic array</p>
-</li>
-<li><p>Various types of source distribution: point, line, plane, rectangular, waveguide mode, etc.</p>
-</li>
-<li><p>Electric (\(\mathbf{J}\)) and magnetic (\(\mathbf{M}\)) current sources</p>
+<li><p>Electric (\(\mathbf{J}_e\)) and magnetic (\(\mathbf{J}_m\)) current sources</p>
 </li>
 <li><p>PEC, PMC, periodic, and Bloch boundary conditions</p>
 </li>
@@ -160,7 +156,7 @@
 </pre></div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2014-06-26 20:07:05 KST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2014-06-26 23:04:45 KST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
