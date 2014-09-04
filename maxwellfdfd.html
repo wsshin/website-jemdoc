@@ -47,6 +47,36 @@
 </li>
 </ul>
 <p>MaxwellFDFD solves the above Maxwell's equations by the finite-difference frequency-domain (FDFD) method, and hence the name MaxwellFDFD.</p>
+<h2>Major Features</h2>
+<ul>
+<li><p>Built-in frequency-dependent dielectric constants for commonly used nanophotonic materials (e.g., Ag, Au, Si, SiO₂) taken from the widely used references (e.g., <a href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.6.4370" target=&ldquo;blank&rdquo;>Johnson and Christy</a>, <a href="http://books.google.com/books?isbn=0080523757" target=&ldquo;blank&rdquo;>Palik</a>, <a href="http://books.google.com/books?isbn=1439880492" target=&ldquo;blank&rdquo;>CRC Handbook</a>)</p>
+</li>
+<li><p>Dynamic nonuniform grid generation aligned with object boundaries</p>
+</li>
+<li><p>Waveguide mode solver and waveguide-mode-generating current source</p>
+</li>
+<li><p>Visualization of objects, sources, and solution fields in 2D and 3D</p>
+</li>
+<li><p>Periodic array of objects</p>
+</li>
+<li><p>Electric (\(\mathbf{J}_e\)) and magnetic (\(\mathbf{J}_m\)) current sources</p>
+</li>
+<li><p>PEC, PMC, periodic, and Bloch boundary conditions</p>
+</li>
+<li><p>Uniaxial perfectly matched layer (UPML) and stretched-coordinate PML (SC-PML) </p>
+</li>
+<li><p>Total-field/scattered-field (TF/SF) method</p>
+</li>
+<li><p>Power flux calculation</p>
+</li>
+</ul>
+<h2>System Requirements</h2>
+<ul>
+<li><p>MATLAB 2010a or later (no Toolbox needed)</p>
+</li>
+</ul>
+<h2>Download</h2>
+<p>Press &ldquo;Download ZIP&rdquo; button in the right panel of <a href="https://github.com/wsshin/maxwellfdfd" target=&ldquo;blank&rdquo;>MaxwellFDFD's GitHub page</a>.</p>
 <h2>Example Gallery</h2>
 <p><a name="eg1"></a></p>
 <ul>
@@ -74,30 +104,7 @@
 <li><p>Click <a href="doc/topic/gallery2d.html" target=&ldquo;blank&rdquo;>here</a> for more examples.</p>
 </li>
 </ul>
-<h2>Major Features of MaxwellFDFD</h2>
-<ul>
-<li><p>Built-in frequency-dependent dielectric constants for commonly used nanophotonic materials (e.g., Ag, Au, Si, SiO₂) taken from the widely used references (e.g., <a href="http://journals.aps.org/prb/abstract/10.1103/PhysRevB.6.4370" target=&ldquo;blank&rdquo;>Johnson and Christy</a>, <a href="http://books.google.com/books?isbn=0080523757" target=&ldquo;blank&rdquo;>Palik</a>, <a href="http://books.google.com/books?isbn=1439880492" target=&ldquo;blank&rdquo;>CRC Handbook</a>)</p>
-</li>
-<li><p>Dynamic nonuniform grid generation aligned with object boundaries</p>
-</li>
-<li><p>Waveguide mode solver and waveguide-mode-generating current source</p>
-</li>
-<li><p>Visualization of objects, sources, and solution fields in 2D and 3D</p>
-</li>
-<li><p>Periodic array of objects</p>
-</li>
-<li><p>Electric (\(\mathbf{J}_e\)) and magnetic (\(\mathbf{J}_m\)) current sources</p>
-</li>
-<li><p>PEC, PMC, periodic, and Bloch boundary conditions</p>
-</li>
-<li><p>Uniaxial perfectly matched layer (UPML) and stretched-coordinate PML (SC-PML) </p>
-</li>
-<li><p>Total-field/scattered-field (TF/SF) method</p>
-</li>
-<li><p>Power flux calculation</p>
-</li>
-</ul>
-<h2>How to Use MaxwellFDFD</h2>
+<h2>How to Use</h2>
 <p>Using MaxwellFDFD is very simple.  There is an all-in-one function, <tt>maxwell_run()</tt>, and you just need to fill in its input parameters.  For example, below is the code for the <a href="maxwellfdfd.html#eg1">first example</a> shown above. </p>
 <div class="codeblock">
 <div class="blockcontent"><pre>
@@ -122,18 +129,7 @@
 </ul>
 <p>The output parameters <tt>E</tt> and <tt>H</tt> are the solution <i>E</i>- and <i>H</i>-fields of the simulation.  </p>
 <p>For the details of the usage, see <a href="doc/topic/basic.html" target=&ldquo;blank&rdquo;>Basic Usage</a> in the documentation. (The entire documentation is included in the downloaded MaxwellFDFD package.)</p>
-<h2>System Requirements</h2>
-<ul>
-<li><p>Windows, LINUX, or OS X.</p>
-</li>
-<li><p>MATLAB 2010a or later.</p>
-</li>
-<li><p>No MATLAB Toolbox is needed.</p>
-</li>
-</ul>
-<h2>Download</h2>
-<p>Press &ldquo;Download ZIP&rdquo; button in the right panel of <a href="https://github.com/wsshin/maxwellfdfd" target=&ldquo;blank&rdquo;>MaxwellFDFD's GitHub page</a>.</p>
-<h2>Citing MaxwellFDFD</h2>
+<h2>How to Cite</h2>
 <p>You are welcome to cite the following paper about the technologies used in MaxwellFDFD:</p>
 <ul>
 <li><p>W. Shin and S. Fan, &ldquo;Choice of the perfectly matched layer boundary condition for frequency-domain Maxwell's equations solvers,&rdquo; <i>Journal of Computational Physics</i>, vol.&nbsp;231, pp.&nbsp;3406&ndash;3431 (2012) [<a href="pdf/shin_jcp2012.pdf" target=&ldquo;blank&rdquo;>pdf</a>].</p>
@@ -156,7 +152,7 @@
 </pre></div></div>
 <div id="footer">
 <div id="footer-text">
-Page generated 2014-09-04 12:04:01 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2014-09-04 12:38:45 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
