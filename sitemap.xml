@@ -8,128 +8,105 @@
 
 <url>
   <loc>http://web.stanford.edu/~wsshin/</loc>
-  <changefreq>monthly</changefreq>
-  <priority>1.00</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/index.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_cv.pdf</loc>
   <lastmod>2014-07-13T14:36:01+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/publications.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/ee256.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/maxwellfdfd.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/fd3d.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/jemdoc+mathjax.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_nl2014.pdf</loc>
   <lastmod>2014-07-13T14:36:01+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_dissertation_updated.pdf</loc>
   <lastmod>2014-09-04T03:31:10+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/buyukalp_apl2014.pdf</loc>
   <lastmod>2014-07-09T03:30:17+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_nl2013.pdf</loc>
   <lastmod>2013-11-21T06:07:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/cai_am2010.pdf</loc>
   <lastmod>2013-11-21T06:07:20+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/verslegers_ol2010.pdf</loc>
   <lastmod>2013-11-21T06:07:22+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_oe2013.pdf</loc>
   <lastmod>2013-11-21T06:07:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_jcp2012.pdf</loc>
   <lastmod>2013-11-21T06:07:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/raman_prl2013.pdf</loc>
   <lastmod>2013-11-21T06:07:20+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/pdf/shin_josab2012.pdf</loc>
   <lastmod>2013-11-21T06:07:21+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/doc/topic/gallery2d.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/doc/topic/basic.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/doc/topic/gallery3d.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/doc/comp/maxwell_run.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>http://web.stanford.edu/~wsshin/doc/topic/intermediate.html</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
+  <changefreq>weekly</changefreq>
 </url>
 </urlset>
