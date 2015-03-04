@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Additional jemdoc+MathJax Examples</title>
+</head>
+<body>
+<div id="layout-content">
+<div id="toptitle">
+<h1>Additional jemdoc+MathJax Examples</h1>
+</div>
+<ul>
+<li><p>Matrix format</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\mathbf{A} \times \mathbf{B} =  \begin{vmatrix}
+\mathbf{\hat{i}} &amp; \mathbf{\hat{j}} &amp; \mathbf{\hat{k}} \\
+A_x &amp; A_y &amp; A_z \\
+B_x &amp; B_y &amp; B_z
+\end{vmatrix}
+\end{equation*}
+\]
+</p><ul>
+<li><p>Continued fraction</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+\begin{equation*}
+\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } }
+\end{equation*}
+\]
+</p><ul>
+<li><p>Horizontal equatian alignment and individual equation numbering</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+\begin{align}
+\nabla \times \vec{\mathbf{E}} &amp; = -\frac{\partial\vec{\mathbf{B}}}{\partial t} \\
+\nabla \cdot \vec{\mathbf{D}} &amp; = \rho_f \\
+\nabla \times \vec{\mathbf{H}} &amp; = \vec{\mathbf{J}}_f + \frac{\partial\vec{\mathbf{D}}}{\partial t}\\   
+\nabla \cdot \vec{\mathbf{B}} &amp; = 0 
+\end{align}
+\]
+</p><ul>
+<li><p>Numbering a set of equations</p>
+</li>
+</ul>
+<p style="text-align:center">
+\[
+\begin{equation}
+\begin{aligned}
+\dot{x} &amp; = \sigma(y-x) \\
+\dot{y} &amp; = \rho x - y - xz \\
+\dot{z} &amp; = -\beta z + xy
+\end{aligned}\label{eq:lorentz}
+\end{equation}
+\]
+</p><div id="footer">
+<div id="footer-text">
+Page generated 2015-03-04 04:33:55 PST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45186598-1', 'stanford.edu');
+  ga('require', 'displayfeatures');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
