@@ -1,9 +1,9 @@
 /* Default css file for jemdoc. */
 
 table#tlayout {
-    border: none;
-    border-collapse: separate;
-    background: white;
+	border: none;
+	border-collapse: separate;
+	background: white;
 }
 
 @font-face {
@@ -28,41 +28,41 @@ table#tlayout {
 }
 
 body {
-background: white;
-			font-family: Optima, sans-serif;
-			padding-bottom: 8px;
-margin: 0;
+	background: white;
+	font-family: Optima, sans-serif;
+	padding-bottom: 8px;
+	margin: 0;
 }
 
 #layout-menu {
-background: #f6f6f6;
-border: 1px solid #dddddd;
-		padding-top: 0.5em;
-		padding-left: 8px;
-		padding-right: 8px;
-		font-size: 1.0em;
-width: auto;
-	   white-space: nowrap;
-	   text-align: left;
-	   vertical-align: top;
+	background: #f6f6f6;
+	border: 1px solid #dddddd;
+	padding-top: 0.5em;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.0em;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
 }
 
 #layout-menu td {
-background: #f4f4f4;
-			vertical-align: top;
+	background: #f4f4f4;
+	vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
-border: none;
-background: white;
-			text-align: left;
-			vertical-align: top;
-			min-width: 800px;
-			max-width:800px;
-width: 800px;
+	border: none;
+	background: white;
+	text-align: left;
+	vertical-align: top;
+	min-width: 800px;
+	max-width: 800px;
+	width: 800px;
 }
 
 #layout-menu a {
@@ -71,7 +71,7 @@ width: 800px;
 }
 
 tt {
-background: #ffffee;
+	background: #ffffee;
 }
 
 pre, tt {
@@ -80,21 +80,21 @@ pre, tt {
 }
 
 a, a > tt {
-color: #224b8d;
-	   text-decoration: none;
+	color: #224b8d;
+	text-decoration: none;
 }
 
 a:hover {
-	  border-bottom: 1px gray dotted;
-  }
+	border-bottom: 1px gray dotted;
+}
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-color: #022b6d;
-	   border-bottom: 1px gray solid;
+	color: #022b6d;
+	border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-color: #527bbd;
-	   text-decoration: none;
+	color: #527bbd;
+	text-decoration: none;
 }
 #layout-menu a:hover {
 	text-decoration: none;
@@ -141,13 +141,13 @@ strong {
 
 
 h1, h2, h3 {
-color: #527bbd;
-	   margin-top: 0.7em;
-	   margin-bottom: 0.3em;
-	   padding-bottom: 0.2em;
-	   line-height: 1.0;
-	   padding-top: 0.5em;
-	   border-bottom: 1px solid #aaaaaa;
+	color: #527bbd;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #aaaaaa;
 }
 
 h1 {
@@ -171,13 +171,13 @@ h3 {
 p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
-padding: 0;
-		 line-height: 1.3;
+	padding: 0;
+	line-height: 1.3;
 }
 
 pre {
-padding: 0;
-margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 div#footer {
@@ -185,16 +185,16 @@ div#footer {
 	border-top: 1px solid #c0c0c0;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
-color: #c0c0c0;
+	color: #c0c0c0;
 }
 
 div#footer a {
-color: #80a0b0;
+	color: #80a0b0;
 }
 
 div#footer-text {
-float: left;
-	   padding-bottom: 8px;
+	float: left;
+	padding-bottom: 8px;
 }
 
 ul, ol, dl {
@@ -213,7 +213,7 @@ dl {
 }
 
 dd {
-color: #222222;
+	color: #222222;
 }
 
 dd > *:first-child {
@@ -263,18 +263,18 @@ div.codeblock, div.infoblock {
 
 div.blocktitle {
 	font-weight: bold;
-color: #cd7b62;
-	   margin-top: 1.2em;
-	   margin-bottom: 0.1em;
+	color: #cd7b62;
+	margin-top: 1.2em;
+	margin-bottom: 0.1em;
 }
 
 div.blockcontent {
-border: 1px solid silver;
-padding: 0.3em 0.5em;
+	border: 1px solid silver;
+	padding: 0.3em 0.5em;
 }
 
 div.infoblock > div.blockcontent {
-background: #ffffee;
+	background: #ffffee;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
@@ -294,38 +294,41 @@ div.infoblock p + p {
 }
 
 div.codeblock > div.blockcontent {
-background: #f6f6f6;
+	background: #f6f6f6;
 }
 
 span.pycommand {
-color: #000070;
+	color: #000070;
 }
 
 span.statement {
-color: #008800;
+	color: #008800;
 }
 span.builtin {
-color: #000088;
+	color: #000088;
 }
 span.special {
-color: #990000;
+	color: #990000;
 }
 span.operator {
-color: #880000;
+	color: #880000;
 }
 span.error {
-color: #aa0000;
+	color: #aa0000;
 }
 span.comment, span.comment > *, span.string, span.string > * {
-color: #606060;
+	color: #606060;
 }
 
 @media print {
-#layout-menu { display: none; }
+	#layout-menu {
+		display: none;
+	}
+
 }
 
 #fwtitle {
-margin: 2px;
+	margin: 2px;
 }
 
 #fwtitle #toptitle {
@@ -346,30 +349,30 @@ div#toptitle h1, #layout-content div#toptitle h1 {
 }
 
 img.eq {
-padding: 0;
-		 padding-left: 0.1em;
-		 padding-right: 0.1em;
-margin: 0;
+	padding: 0;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	margin: 0;
 }
 
 img.eqwl {
 	padding-left: 2em;
 	padding-top: 0.6em;
 	padding-bottom: 0.2em;
-margin: 0;
+	margin: 0;
 }
 
 table {
-border: 2px solid black;
-		border-collapse: collapse;
+	border: 2px solid black;
+	border-collapse: collapse;
 }
 
 td {
-padding: 2px;
-		 padding-left: 0.5em;
-		 padding-right: 0.5em;
-		 text-align: center;
-border: 1px solid gray;
+	padding: 2px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-align: center;
+	border: 1px solid gray;
 }
 
 table + table {
@@ -382,10 +385,31 @@ tr.heading {
 }
 
 img {
-border: none;
+	border: none;
 }
 
 table.imgtable, table.imgtable td {
-border: none;
-		text-align: left;
+	border: none;
+	text-align: left;
+}
+
+.tex sub, .latex sub, .latex sup {
+	text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+	vertical-align: -0.5ex;
+	margin-left: -0.1667em;
+	margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+	font-size: 1em;
+}
+
+.latex sup {
+	font-size: 0.85em;
+	vertical-align: 0.15em;
+	margin-left: -0.36em;
+	margin-right: -0.15em;
 }
