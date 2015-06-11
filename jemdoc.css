@@ -414,11 +414,8 @@ table.imgtable, table.imgtable td {
 	margin-right: -0.15em;
 }
 
-.bib, .bib sub {
-	font-size: 0.75em;
-}
-
 .bib sub {
+	font-size: 0.75em;
 	vertical-align: 0ex;
 	margin-left: -0.05em;
 	margin-right: 0em;
