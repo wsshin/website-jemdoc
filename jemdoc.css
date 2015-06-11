@@ -393,8 +393,12 @@ table.imgtable, table.imgtable td {
 	text-align: left;
 }
 
-.tex sub, .latex sub, .latex sup {
+.tex sub, .latex sub, .latex sup, .bib sub {
 	text-transform: uppercase;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+	font-size: 1em;
 }
 
 .tex sub, .latex sub {
@@ -403,13 +407,19 @@ table.imgtable, table.imgtable td {
 	margin-right: -0.125em;
 }
 
-.tex, .latex, .tex sub, .latex sub {
-	font-size: 1em;
-}
-
 .latex sup {
 	font-size: 0.85em;
 	vertical-align: 0.15em;
 	margin-left: -0.36em;
 	margin-right: -0.15em;
+}
+
+.bib, .bib sub {
+	font-size: 0.75em;
+}
+
+.bib sub {
+	vertical-align: 0ex;
+	margin-left: -0.05em;
+	margin-right: 0em;
 }
