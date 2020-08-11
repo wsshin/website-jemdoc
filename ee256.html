@@ -52,64 +52,86 @@ MathJax.Hub.Config({
 <table class="imgtable"><tr><td>
 <img src="img/ee256.png" alt="2D examples" width="800px" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>You probably have learned Maxwell's equations, which are the following four coupled partial differential equations (PDEs):</p>
+<p>You probably have learned Maxwell's equations, which are the following four coupled partial differential equations (PDEs):
+</p>
 <p style="text-align:center">
 \[
 \nabla \cdot \mathbf{D} = \rho_f\;,\;\nabla \cdot \mathbf{B} = 0,\\
 \nabla \times \mathbf{E} = -\frac{\partial\mathbf{B}}{\partial t}\;,\;\nabla \times \mathbf{H} = \mathbf{J}_f - \frac{\partial\mathbf{D}}{\partial t}.
 \]
-</p><p>They are governing equations behind many of the modern technologies, such as radio and TV broadcasting, satellite and optical communication, radar, lasers, and solar cells.  However, for realistic systems beyond simple textbook examples, these equations are in general difficult to solve.  <b>Take EE256</b> and you will</p>
+</p><p>They are governing equations behind many of the modern technologies, such as radio and TV broadcasting, satellite and optical communication, radar, lasers, and solar cells.  However, for realistic systems beyond simple textbook examples, these equations are in general difficult to solve.  <b>Take EE256</b> and you will
+</p>
 <ul>
-<li><p>learn to solve Maxwell's equations for realistic systems;</p>
+<li><p>learn to solve Maxwell's equations for realistic systems;
+</p>
 </li>
-<li><p>learn to conceive the propagation of electromagnetic waves through complicated media; and</p>
+<li><p>learn to conceive the propagation of electromagnetic waves through complicated media; and
+</p>
 </li>
-<li><p>form a better than ever understanding of Maxwell's equations.</p>
+<li><p>form a better than ever understanding of Maxwell's equations.
+</p>
 </li>
 </ul>
-<p>Already a user of some numerical solver of Maxwell's equations?  <b>Take EE256</b> and you will</p>
+<p>Already a user of some numerical solver of Maxwell's equations?  <b>Take EE256</b> and you will
+</p>
 <ul>
-<li><p>gain a better understanding of the numerical solver; and</p>
+<li><p>gain a better understanding of the numerical solver; and
+</p>
 </li>
-<li><p>understand the proper way of setting up your simulation.</p>
+<li><p>understand the proper way of setting up your simulation.
+</p>
 </li>
 </ul>
 <h2>Topics to Be Covered</h2>
 <ul>
-<li><p>Finite-difference time-domain (FDTD) method of solving Maxwell's equations</p>
+<li><p>Finite-difference time-domain (FDTD) method of solving Maxwell's equations
+</p>
 </li>
-<li><p>Finite-difference frequency-domain (FDFD) method of solving Maxwell's equations</p>
+<li><p>Finite-difference frequency-domain (FDFD) method of solving Maxwell's equations
+</p>
 </li>
-<li><p>TE and TM wave decomposition</p>
+<li><p>TE and TM wave decomposition
+</p>
 </li>
-<li><p>Perfectly matched layer (PML) absorbing boundaries for simulating infinite space</p>
+<li><p>Perfectly matched layer (PML) absorbing boundaries for simulating infinite space
+</p>
 </li>
-<li><p>Total-field/scattered-field (TF/SF) method for analyzing scattering events</p>
+<li><p>Total-field/scattered-field (TF/SF) method for analyzing scattering events
+</p>
 </li>
-<li><p>Numerical stability and numerical dispersion</p>
+<li><p>Numerical stability and numerical dispersion
+</p>
 </li>
-<li><p>Simulating dispersive materials</p>
+<li><p>Simulating dispersive materials
+</p>
 </li>
-<li><p>Advanced topics: fundamental origin of numerical error, limitations of PML, waveguide mode solver, tips on visualization, and more!</p>
+<li><p>Advanced topics: fundamental origin of numerical error, limitations of PML, waveguide mode solver, tips on visualization, and more!
+</p>
 </li>
 </ul>
 <h2>Key Differences from Previous Years</h2>
 <ul>
-<li><p><b>The FDTD method and the FDFD method.</b>  For the first time, the two different methods of solving Maxwell's equations will be taught at the same time.  By learning the different pros and cons of the FDTD and FDFD methods, you will understand that no single numerical method is perfect for all problems.</p>
+<li><p><b>The FDTD method and the FDFD method.</b>  For the first time, the two different methods of solving Maxwell's equations will be taught at the same time.  By learning the different pros and cons of the FDTD and FDFD methods, you will understand that no single numerical method is perfect for all problems.
+</p>
 </li>
-<li><p><b>Smaller, more frequent programming assignments.</b>  In the previous years, big programming assignments given every two weeks were major frustrations for the students.  This year, we will divide programming assignments into smaller, more manageable weekly assignments.  We will also provide template source codes that the students can start with.</p>
+<li><p><b>Smaller, more frequent programming assignments.</b>  In the previous years, big programming assignments given every two weeks were major frustrations for the students.  This year, we will divide programming assignments into smaller, more manageable weekly assignments.  We will also provide template source codes that the students can start with.
+</p>
 </li>
-<li><p><b>No midterm exam.</b>  Homework assignments and final projects only.</p>
+<li><p><b>No midterm exam.</b>  Homework assignments and final projects only.
+</p>
 </li>
 </ul>
 <h2>About the Instructors</h2>
-<p>This year, EE256 will be jointly taught by Dr. Sunil Sandhu and Dr. Wonseok Shin.  They both received Ph.D. degrees in Electrical Engineering at Stanford University for computational nanophotonics.  As a part of the doctoral research, they each developed numerical solver packages of Maxwell's equations: <a href="http://stanford.wikia.com/wiki/FDTD_Plus" target=&ldquo;blank&rdquo;>FDTD+</a> by Dr. Sandhu and <a href="maxwellfdfd.html">MaxwellFDFD</a> by Dr. Shin.  As the actual developers of the publicly released numerical solvers, Dr. Sandhu and Dr. Shin will share their expetise in numerical electromagnetics throughout the course.  </p>
-<p>In fact, both of them took EE256 as Ph.D. sdutents, so they are eager to improve this already excellent class based upon their previous experiences!</p>
+<p>This year, EE256 will be jointly taught by Dr. Sunil Sandhu and Dr. Wonseok Shin.  They both received Ph.D. degrees in Electrical Engineering at Stanford University for computational nanophotonics.  As a part of the doctoral research, they each developed numerical solver packages of Maxwell's equations: <a href="http://stanford.wikia.com/wiki/FDTD_Plus" target=&ldquo;blank&rdquo;>FDTD+</a> by Dr. Sandhu and <a href="maxwellfdfd.html">MaxwellFDFD</a> by Dr. Shin.  As the actual developers of the publicly released numerical solvers, Dr. Sandhu and Dr. Shin will share their expetise in numerical electromagnetics throughout the course.  
+</p>
+<p>In fact, both of them took EE256 as Ph.D. sdutents, so they are eager to improve this already excellent class based upon their previous experiences!
+</p>
 <h2>Questions?</h2>
-<p>If you have any questions about the course, please feel free to contact Dr. Sunil Sandhu (centaur at stanford dot edu) and Dr. Wonseok Shin (wsshin at stanford dot edu).</p>
+<p>If you have any questions about the course, please feel free to contact Dr. Sunil Sandhu (centaur at stanford dot edu) and Dr. Wonseok Shin (wsshin at stanford dot edu).
+</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2019-07-15 14:36:43 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2020-08-10 23:51:02 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
